@@ -1,0 +1,13 @@
+[package]
+name = "rurbantrust_ai"
+version = "0.1.0"
+edition = "2021"
+description = "RurbanTrust AI: Rural Employment Guarantee Wage Reconciliation, Rural Road Geo-Tagging and Direct Benefit Pay"
+license = "Apache-2.0"
+
+[dependencies]
+candid = "0.10"
+serde = { version = "1.0", features = ["derive"] }
+
+[lib]
+crate-type = ["cdylib", "lib"]
